@@ -76,7 +76,7 @@ function checkEmotion() {
   
 }
 //translate the word into pig latin
-function test() {
+function translateText() {
   //get user input 
   var word = document.getElementById("txtMessage1").value;
 
