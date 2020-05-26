@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Harpreet Coding Drills</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="script.js" type="text/javascript"></script>
+  </head>
+  <body>
+      <!-- J1 2020 QUESTION -->
+    <div class="bg-light p-2">
+      <h1>J1 2020</h1>
+      <p>Calculate dogs happiness from user input</p>
+      <!-- REQUIREMENTS ARE 3 INPUT FIELDS(SMALL TREATS, MEDIUM TREATS, BIG TREATS), A OUTPUT TEXT -->
+      <!-- INPUT FOR SMALL TREATS -->
+      <label>Small treats</label>
+      <input type="number" id="smallT" min="0" max="10" />
+      <!-- INPUT FOR MEDIUM TREATS -->
+      <label>Medium treats</label>
+      <input type="number" id="mediumT" min="0" max="10" />
+      <!-- INPUT FOR BIG TREATS -->
+      <label>Big treats</label>
+      <input type="number" id="bigT" min="0" max="10" />
+      <!-- BUTTON TO SUBMIT -->
+      <input type="submit" value="Check" name="submit" onclick="checkDog()" />
+      <!-- DIV TO OUTPUT RESULTS -->
+      <div id="output"></div>
+      
+    </div>
+    <!-- J2 2015 QUESTION -->
+    <div class="bg-warning p-2 mt-4">
+        <h1>J2 2015</h1>
+        <p>Calculate emotion from user input</p>
+        <!-- REQUIRMENTS ARE 1 USER INPUT (text message) A OUTPUT TEXT -->
+        <!-- INPUT FOR test message -->
+        <label>Text Message: </label>
+        <input type="text" id="txtMessage"/>
+        <!-- BUTTON TO SUBMIT -->
+        <input type="submit" value="Check" onclick="checkEmotion()"/>
+        <!-- DIV TO OUTPUT RESULTS -->
+        <div id="output1"></div>
+    </div>
+    <!-- J3 2015 QUESTION -->
+    <div class="bg-secondary p-2 mt-4">
+      <h1>J3 2015</h1>
+      <p>Swedish Child game</p>
+      <!-- REQUIRMENTS ARE 1 USER INPUT (text message) A OUTPUT TEXT -->
+      <!-- INPUT FOR test message -->
+      <label>Text Message: </label>
+      <input type="text" id="txtMessage1"/>
+      <!-- BUTTON TO SUBMIT -->
+      <input type="submit" value="Check" onclick="test()"/>
+      <!-- DIV TO OUTPUT RESULTS -->
+      <div id="output2"></div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
